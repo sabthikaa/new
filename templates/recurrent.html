@@ -1,0 +1,340 @@
+{% extends 'index.html' %}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+	
+    <meta name="author" content="Codeconvey" />
+    
+    <!-- Drop Down Menu CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!--Only for demo purpose - no need to add.-->
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+	
+</head>
+<style>
+
+
+
+    
+  .sidenav {
+       
+    background-color:white;
+    height:14000px;
+    width:500px;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    line-height:40px;
+   
+
+  
+   
+  }
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+
+  
+  }
+
+
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Style page content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+nav {
+background-color: black;
+}
+
+nav ul {
+padding: 0;
+margin: 0;
+list-style: none;
+position: relative;
+}
+
+nav ul li {
+display:inline-block;
+background-color: black;
+}
+
+nav a {
+display:block;
+padding:0 40px;	
+color:#FFF;
+font-size:20px;
+line-height: 100px;
+text-decoration:none;
+}
+
+nav a:hover { 
+background-color: rgba(0, 0, 0, 0.4);
+color: #fff;
+}
+
+/* Fisrt level Dropdown */
+nav ul ul li {
+width:500px;
+float:none;
+display:list-item;
+position: relative;
+}
+
+/* Second, Third and more levels	*/
+nav ul ul ul li {
+position: relative;
+top:-60px; 
+left:170px;
+}
+/* Hide Dropdowns by Default */
+nav ul ul {
+display: none;
+position: absolute; 
+top: 60px; /* the height of the main nav */
+}
+
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+display:inherit;
+}
+</style>
+<body>
+		
+<div class="ScriptTop">
+    <div class="rt-container">
+        <div class="col-rt-4" id="float-right">
+ 
+            <!-- Ad Here -->
+            
+        </div>
+        <div class="col-rt-2">
+         
+        </div>
+    </div>
+</div>
+
+<header class="ScriptHeader">
+    <div class="rt-container">
+    	<div class="col-rt-12">
+        	<div class="rt-heading">
+           
+      
+            </div>
+        </div>
+    </div>
+</header>
+
+		
+<div class="ScriptTop">
+    <div class="rt-container">
+        <div class="col-rt-4" id="float-right">
+ 
+            <!-- Ad Here -->
+            
+        </div>
+        <div class="col-rt-2">
+            
+        </div>
+    </div>
+</div>
+
+<header class="ScriptHeader">
+    <div class="rt-container">
+    	<div class="col-rt-12">
+        	<div class="rt-heading">
+         
+            </div>
+        </div>
+    </div>
+</header>
+
+<section>
+    <div class="rt-container">
+          <div class="col-rt-12">
+              <div class="Scriptcontent">
+              
+     <div id="container">
+ 
+      <nav>
+        <ul>
+           
+            <li><a href="#">   ORTHOPAEDICS</a>
+            <!-- First Tier Drop Down -->
+            <ul>
+              <li><a href="http://127.0.0.1:8000/princ">PRINCIPLES OF ORTHOPAEDICS</a></li>
+              <li><a href="http://127.0.0.1:8000/boneandjoints">BONES AND JOINTS</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/upp">UPPER LIMB</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/low">LOWER LIMB</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/spin">SPINE AND VERTEBRA</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/age">PAEDIATRIC AGE GROUP</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/bonecysts">BONE CYSTS AND TUMOURS</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/mis/">MISCELLANEOUS</a></li>
+            </ul>        
+            </li>
+         
+    </nav>
+  
+    
+      <div class="sidenav">
+    
+        <a class="sidenav-link dropdown-toggle" href="#" id="sidenavDropdown" role="button"
+        data-bs-toggle="dropdown" aria-expanded="false">
+        UPPER LIMB
+    </a></style>
+
+<ul >
+<li><a class="dropdown-item" href="http://127.0.0.1:8000/volk"> Volkmann's ischaemic Contracture</a></li>
+<li><a class="dropdown-item" href="http://127.0.0.1:8000/colles">Colles fracture </a></li>
+<li><a class="dropdown-item" href="http://127.0.0.1:8000/monteggia">Monteggia 
+fracture-dislocation </a></li>
+<li><a class="dropdown-item" href="http://127.0.0.1:8000/recurrent">Recurrent dislocation of shoulder</a>
+  <li><a class="dropdown-item" href="http://127.0.0.1:8000/supre"> Supra 
+    condylar fracture of Humerus</a></li>
+    <li><a class="dropdown-item" href="http://127.0.0.1:8000/fracture">Fracture clavicle</a></li>
+      <li><a class="dropdown-item" href="http://127.0.0.1:8000/Tennis">Tennis Elbow </a></li>
+        <li><a class="dropdown-item" href="http://127.0.0.1:8000/Dupuytren">Dupuytren’s 
+          contracture </a></li>
+          <li><a class="dropdown-item" href="http://127.0.0.1:8000/mallet">Mallet finger</a></li>
+            <li><a class="dropdown-item" href="http://127.0.0.1:8000/Trigger">Trigger 
+              finger</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/ole"> Fracture olecranon </a></li>
+                <li><a class="dropdown-item" href="http://127.0.0.1:8000/carpel">Carpal tunnel 
+                  syndrome</a></li>
+                  <li><a class="dropdown-item" href="http://127.0.0.1:8000/frozen"> Frozen 
+                    shoulder</a></li>
+                    <li><a class="dropdown-item" href="http://127.0.0.1:8000/de">De Quervan’s 
+                      disease </a></li>  
+    
+                              </ul>
+
+ 
+
+</div>
+
+
+</body>
+</html>
+
+
+<style type="text/css">
+
+  p{
+  
+    text-align:justify;
+  line-height:40px;
+    font-size: 20px;
+    font-family: TimesNewRoman;
+    
+   
+  }
+  
+  h3{
+    
+      color:black;
+      text-align: left; 
+      font-size: 30px;
+      font-family: TimesNewRoman;
+     
+     
+    }
+  h2{
+      color:black;
+      text-align: center; 
+      font-size: 40px;
+      background-color: white;
+      font-family: TimesNewRoman;
+  }
+</style>
+<body>
+
+ <h2> Recurrent dislocation of shoulder</h2>
+ <div="img">
+        
+        
+ <center><img src="https://www.orthobangalore.com/img/Recurrent+shoulder+dislocation.jpg" width="300" height="300"></center>
+</div>
+<p> If an anterior dislocation tears the shoulder capsule, repair occurs 
+  spontaneously following reduction and the dislocation may not recur. 
+  35
+   But if the glenoid labrum is detached (particularly in young patients) or the 
+  capsule is stripped off in front of the neck of glenoid, repair is less likely and 
+  recurrence is more common. </p>
+
+<h3>Epidemiology: </h3>
+<p>1. Common in young patients (~20 years) </p>
+<p>2. Common in males </p>
+<p>3. Most recurrences occur within first 2 years of first episode </p>
+<p>4. May be classified into 2 types: traumatic and atraumatic. </p>
+
+<h3>Clinical features: </h3>
+<p> History: The history is diagnostic. The patient complains that the shoulder 
+dislocates with relatively trivial everyday actions. Often he can reduce the 
+dislocation himself. </p>
+
+<h3>Radiological features: </h3>
+<p>1. Hill sach’s lesion: Posterolateral humeral head compression fracture </p>
+<p>2. Bankart’s lesion: Fracture-dislocation of anteroinferior aspect of glenoid.</p> 
+
+<h3>Treatment: </h3>
+
+
+<p>Surgery is indicated for patients having >3 episodes. Commonly done operations 
+are: </p>
+<p>1. Bankart's operation: Glenoid labrum and capsule are re-attached to the 
+front of the glenoid rim </p>
+<p>2. Arthroscopic Bankart repair: Faster and easier rehabilitation but expensive 
+procedure </p>
+<p>3. Putti-Platt operation: Double-breasting of the subscapularis tendon to 
+prevent recurrences.</p>
+<h3>Signs and symptoms:</h3>
+ <p> Significant pain is sometimes felt along the arm past the shoulder.
+  A sensation that the shoulder is slipping out of the joint during abduction and external rotation.
+  Shoulder and arm held in external rotation (anterior dislocation), or adduction and internal rotation (posterior dislocation). Resistance of all movement.
+  Numbness of the arm.
+  Visibly displaced shoulder. Some dislocations result in the shoulder appearing unusually square.
+  No palpable bone on the side of the shoulder.
+  
+  Complications may include a Bankart lesion, Hill-Sachs lesion, rotator cuff tear, or injury to the axillary nerve.
+  
+  A shoulder dislocation often occurs as a result of a fall onto an outstretched arm or onto the shoulder.
+  
+  They are classified as anterior, posterior, inferior, and superior with most being anterior. Males are affected more often than females.</p>
+<h3>How To Diagnosis is done in Shoulder Dislocation (Recurrent)?</h3>
+ <p> Diagnosis is typically based on symptoms and confirmed by X-rays.
+  
+  A diagnosis of shoulder dislocation is often suspected based on patient history and physical examination. Radiographs are made to confirm the diagnosis. Most dislocations are apparent on radiographs showing incongruence of the glenohumeral joint. Posterior dislocations may be hard to detect on standard AP radiographs but are more readily detected on other views. After reduction, radiographs are usually repeated to confirm successful reduction and to detect bony damage. After repeated shoulder dislocations, an MRI scan may be used to assess soft tissue damage. In regards to recurrent dislocations, the apprehension test (anterior instability) and sulcus sign (inferior instability) are useful methods for determining predisposition to future dislocation.
+  Shoulder dislocation is classified on the basis of the direction in which the ball dislocates in relation to the socket. It is termed unidirectional if it dislocates in one direction only, or multidirectional if it dislocates in more than one direction. Thus there are the following types of dislocation:
+  1) Unidirectional – These are usually traumatic in nature
+  a.Anterior – the ball dislocates in front of the socket. This is the commonest type.
+  b.Posterior – the ball dislocates behind the socket
+  c. Inferior – the ball dislocates below the socket
+  2) Multidirectional – These are usually traumatic in nature and occur in patients who have inborn laxity in their joints.
+  There are three main types of dislocations: anterior, posterior, and inferior.</p>
+
+
+
+</body>
+{% endblock %}
